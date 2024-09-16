@@ -6,6 +6,11 @@
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        System.out.println(" \\_ \\_     _/ _/");
+        System.out.println("      \\___/");                          
+        System.out.println("      ( oo ) \\___________");                         
+        System.out.println("      (____)\\            )\\/\\");                          
+        System.out.println("             | |-------| |");                                 
+        System.out.println("             | |       | |");                                 
     }
 }
