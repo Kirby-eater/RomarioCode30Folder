@@ -9,10 +9,10 @@
 public class App {
     public static void main(String[] args) throws Exception {
         String message1 = "I am very happy!";
-        String target1 = "very";
+        String target1 = "very ";
         int length1 = target1.length();
         int one = message1.indexOf(target1);
-        System.out.println(message1.replace("very","" ));
+        System.out.println(message1.replace("very ", "" ));
         
 
 
