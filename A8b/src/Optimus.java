@@ -4,7 +4,7 @@ public class Optimus {
     }
 
     public void sayName() {
-        System.out.println("All for one, One for All");
-        speak();
+        System.out.println("by the all spark");
+        
     }
 }

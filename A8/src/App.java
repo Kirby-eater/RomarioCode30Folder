@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
         Scanner Keys = new Scanner(System.in);
-
+        // Int code
         System.out.print("Enter an integer:");
         int num1 = Keys.nextInt();
 
