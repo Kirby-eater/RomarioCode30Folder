@@ -5,6 +5,9 @@
 
 public class BigSmallRunner {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        BigSmall number = new BigSmall();
+
+        number.input();
+        number.check();
     }
 }
