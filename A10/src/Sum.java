@@ -15,9 +15,9 @@ public class Sum {
 
     public void solve() {
 
-        int case = (num1 + num2);
+        int cas = (num1 + num2);
 
-        System.out.println("Your answer is " + case);
+        System.out.println("Your answer is " + cas);
     }
 
 
