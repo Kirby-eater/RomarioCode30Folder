@@ -7,19 +7,28 @@ public class Submethod {
     private double wid =0;
     private double sid =0;
     private double rad =0;
-    public String choice ="";
 
 
 
 
-    public void Perimeter() {
-         ans = (2*len) + (2*wid); 
+
+    public void perimeter() {
+     System.out.print("Enter you length: ");
+     len = keys.nextDouble();
+     System.out.print("Enter you width: ");
+     wid = keys.nextDouble();
+     ans = (2*len) + (2*wid);
+     System.out.println("Your Perimeter is " + ans);
+
 
 
     }
 
     public void SurfaceArea() {
-         ans = 6s2
+     System.out.print("Enter you side length: ");
+     sid = keys.nextDouble();
+         ans = 6 * (sid * sid);
+         System.out.println("Your Surface Area is " + ans);
 
 
     }

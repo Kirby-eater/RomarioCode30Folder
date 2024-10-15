@@ -3,21 +3,39 @@
 // Date: 10 October 2024
 // Description: 
 
+import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) throws Exception {
-        App calc = new App();
+        Submethod calc = new Submethod();
+        Scanner keys = new Scanner(System.in);
+        int choice = 0;
         
-        System.out.print("Perimeter of a Rectangle = a:");
-        System.out.println("Surface area of a cube = b:");
-        System.out.println("Area of a Circle = c:");
-        System.out.println("What would you like to do (a/b/c)?");
+        System.out.println("Perimeter of a Rectangle = 1:");
+        System.out.println("Surface area of a cube = 2:");
+        System.out.println("Area of a Circle = 3:");
+        System.out.println("What would you like to do (1/2/3)?");
+        choice = keys.nextInt();
 
-        If 
+        
+        if (choice == 1) {
+            calc.perimeter();
+        }
+
+        if (choice == 2) {
+            calc.SurfaceArea();
+        }
 
 
 
-    
+    keys.close();
     
     
     }
+
+
+    
+
+
+    
 }
