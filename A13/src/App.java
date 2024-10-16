@@ -1,6 +1,6 @@
 // Project Name: Geometry Calculator
 // Name: Romario Bonnick
-// Date: 10 October 2024
+// Date: 16 October 2024
 // Description: 
 
 import java.util.Scanner;
@@ -26,16 +26,13 @@ public class App {
             calc.SurfaceArea();
         }
 
-
+        if (choice == 3) {
+            calc.AreaCircle();
+        }
 
     keys.close();
     
     
     }
-
-
-    
-
-
     
 }

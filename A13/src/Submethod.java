@@ -9,33 +9,32 @@ public class Submethod {
     private double rad =0;
 
 
-
-
-
     public void perimeter() {
-     System.out.print("Enter you length: ");
+     System.out.print("Enter your length: ");
      len = keys.nextDouble();
-     System.out.print("Enter you width: ");
+     System.out.print("Enter your width: ");
      wid = keys.nextDouble();
      ans = (2*len) + (2*wid);
      System.out.println("Your Perimeter is " + ans);
 
 
-
     }
 
     public void SurfaceArea() {
-     System.out.print("Enter you side length: ");
+     System.out.print("Enter your side length: ");
      sid = keys.nextDouble();
-         ans = 6 * (sid * sid);
-         System.out.println("Your Surface Area is " + ans);
+     ans = 6 * (sid * sid);
+     System.out.println("Your Surface Area is " + ans);
 
 
     }
 
 
     public void AreaCircle() {
-         ans = Math.PI * (rad * rad);
+     System.out.print("Enter your radius: ");
+     rad = keys.nextDouble();
+     ans = Math.PI * (rad * rad);
+     System.out.println("The Area of the circle is " + ans);
 
 
     }
