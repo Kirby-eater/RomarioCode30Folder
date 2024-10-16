@@ -1,7 +1,7 @@
 // Project Name: Geometry Calculator
 // Name: Romario Bonnick
 // Date: 16 October 2024
-// Description: 
+// Description: Calculating perimeter, surface area, and area of a circle
 
 import java.util.Scanner;
 
