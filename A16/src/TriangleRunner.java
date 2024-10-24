@@ -1,6 +1,6 @@
 // Project Name: Area of a Triangle
 // Name: Romario Bonnick
-// Date: 16 October 2024
+// Date: 23 October 2024
 // Description: Calculate the area of a triangle given the values for all three sides
 
 import java.util.Scanner;
