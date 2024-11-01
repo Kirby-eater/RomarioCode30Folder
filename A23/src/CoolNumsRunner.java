@@ -5,6 +5,11 @@
 
 public class CoolNumsRunner {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        CoolNums cooler = new CoolNums();
+
+        cooler.check();
+
+        cooler.count();
+       
     }
 }
