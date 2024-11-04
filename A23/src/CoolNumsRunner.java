@@ -3,13 +3,17 @@
 // Date: 30 October 2024
 // Description: Determine if a number is a cool number
 
+import java.util.Scanner;
+
 public class CoolNumsRunner {
     public static void main(String[] args) throws Exception {
+        Scanner keys = new Scanner(System.in);
         CoolNums cooler = new CoolNums();
+        int user;
 
-        cooler.check();
-
-        cooler.count();
+        System.out.print("Enter your number: ");
+        user = keys.nextInt();
+        cooler.count(user);
        
     }
 }
