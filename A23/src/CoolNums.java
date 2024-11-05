@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class CoolNums {
     
@@ -21,8 +20,9 @@ public class CoolNums {
                 if (check(i)) {
                     counter ++;
                 }
-            System.out.print("Your number of cool numbers are " + counter);
+            
         }
+        System.out.print("Your number of cool numbers are " + counter);
 
         
 
