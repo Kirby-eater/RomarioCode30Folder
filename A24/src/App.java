@@ -5,6 +5,11 @@
 
 public class App {
     public static void main(String[] args) throws Exception {
-        
+        Looper count = new Looper();
+
+        count.getEvenCount(10);
+        count.countev(10);
+        count.getOddCount(10);
+        count.countodd(10);
     }
 }
