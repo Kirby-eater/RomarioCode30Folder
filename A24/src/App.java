@@ -11,5 +11,6 @@ public class App {
         count.countev(10);
         count.getOddCount(10);
         count.countodd(10);
+        count.getTotal();
     }
 }

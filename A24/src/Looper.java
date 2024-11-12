@@ -26,9 +26,9 @@ public class Looper {
             }
             
         }
-        System.out.print("The number of even numbers is " + ecount);
+        System.out.println("The number of even numbers is " + ecount);
     }
-}
+
 
  
      public boolean getOddCount(int stop) {
@@ -49,15 +49,18 @@ public class Looper {
                 odcount ++;
             }
         }
-        System.out.print("The number of odd numbers is " + odcount);
-     }
+    
+        System.out.println("The number of odd numbers is " + odcount);
+    }
  
 	 
-    //  public int getTotal() {
-	// 	 int total=0;
- 
- 
-	// 	 return total;
-	//  }
+     public void getTotal() {
+		 int total=0;
+         total = (0+1+2+3+4+5+6+7+8+9+10);
 
 
+    System.out.print("The total of the numbers are " + total);
+	 }
+
+
+}
