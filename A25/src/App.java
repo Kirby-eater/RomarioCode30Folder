@@ -8,7 +8,7 @@ public class App {
         RandomGen com = new RandomGen();
         int count = 0;
 
-        while(count < 10) {
+        while(count != 15) {
         com.compare();
         System.out.println();
         count++;
