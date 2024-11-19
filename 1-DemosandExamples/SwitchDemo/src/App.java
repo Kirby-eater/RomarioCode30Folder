@@ -24,6 +24,8 @@ public class App {
         //     System.out.println("You picked a weird number");
         // }
 
+                                //OR
+
         switch(option) {
             case 7:
                 System.out.println("You picked 7!");
