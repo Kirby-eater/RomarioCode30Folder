@@ -1,7 +1,7 @@
 // Project Name: Array Fun House
 // Name: Romario Bonnick
-// Date: 26 November 2024
-// Description: Write several array manipulation methods.
+// Date: 28 November 2024
+// Description: Write six array manipulation methods.
 
 
 
@@ -10,6 +10,7 @@ public class App {
         Arrayss play = new Arrayss();
         
         play.Out1();
+        play.Out2();
 
         
     }
