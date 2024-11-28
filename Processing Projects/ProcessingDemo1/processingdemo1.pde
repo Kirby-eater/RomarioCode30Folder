@@ -1,41 +1,48 @@
-Ball redball = new Ball();
+Ball redball;
 
-// Happens once at launch
-void setup() {
+void setup() { // Happens once at launch
     size(1280, 720);
-    background(200, 200, 200);
-    redBall = new Ball();
-    
+    background(200,200,200);
+    redball = new Ball(200,200,50);
 }
 
-// Happens constantly (Screen refresh)
-void draw() {
-    background(200, 200, 200);
+void draw() { // Happens constantly (screen refresh)
+    background(200,200,200);
     redball.display();
-    redBall.move();
+    redball.move();
 
 }
-
-
 
 class Ball {
     int x, y, r;
+    int dx, dy; //Speed or Velocity
 
     //Constructor
-    Ball() {
-        x = 300;
-        y = 300;
-        r = 100;
+    Ball(int tempx, int tempy, int tempr) {
+        x = tempx;
+        y = tempy;
+        r = tempr;
+        dx = 3;
+        dy = 3;
     }
-
     void display() {
         circle(x,y,r*2);
     }
 
     void move() {
-        if(y <= height - r) {
-            y++;
-            x++;
+        y = y+dy;
+        x = x + dx;
+
+        if (y >= height-r || y <= 0 + r) {
+            //bounce
+            dy = dy * -1;
+
+        }
+
+        if (x >= width-r || x <= 0 + r) {
+            //bounce
+            dx = dx * -1;
+
         }
     }
 }
