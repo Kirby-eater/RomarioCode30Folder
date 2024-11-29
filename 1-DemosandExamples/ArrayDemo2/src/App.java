@@ -20,7 +20,7 @@ public class App {
 
         System.out.print("your list of numbers is: ");
         for(int i = 0; i < nums.length; i++) {
-            System.out.println(nums[i] + " , ");
+            System.out.println(nums[i] + ",");
         }
 
         // Output the last value WITH a new line
