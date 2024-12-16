@@ -11,7 +11,10 @@ public class Raffle {
     
     //names = new String[12];
 
-    String[] names = {"Wolf", "Sutter", "Cook", "Fox", "Golden"};
+    String[] names = {user, "Wolf", "Sutter", "Cook", "Fox", "Golden", "Sally", "Riley", "Wompus", "Raff"};
+
+    int pick;
+    pick = names.random();
 
 }
 
