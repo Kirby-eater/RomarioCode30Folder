@@ -13,8 +13,13 @@ public class Raffle {
 
     String[] names = {user, "Wolf", "Sutter", "Cook", "Fox", "Golden", "Sally", "Riley", "Wompus", "Raff"};
 
-    int pick;
-    pick = names.random();
+    double pick;
+    pick = names.length;
+    pick = Math.random();
+
+
+
+    System.out.println(pick);
 
 }
 
