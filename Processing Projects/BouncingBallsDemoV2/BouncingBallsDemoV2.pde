@@ -3,7 +3,7 @@ ArrayList<Ball> ballGroup;
 //int pos = 0;
 
 void setup() { // Happens once at launch
-    size(1600, 900);
+    size(2000, 1000);
     background(200,200,200);
     ballGroup = new ArrayList<Ball>();
 }
